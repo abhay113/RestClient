@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>abb</servlet-name>
+  	<display-name>abb</display-name>
+  	<description></description>
+  	<servlet-class>servlets.abb</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CourseServlet</servlet-name>
+  	<display-name>CourseServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.CourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateCourseServlet</servlet-name>
+  	<display-name>CreateCourseServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.CreateCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteCourseServlet</servlet-name>
+  	<display-name>DeleteCourseServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.DeleteCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateCourseServlet</servlet-name>
+  	<display-name>UpdateCourseServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlets.UpdateCourseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abb</servlet-name>
+  	<url-pattern>/abb</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CourseServlet</servlet-name>
+  	<url-pattern>/CourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateCourseServlet</servlet-name>
+  	<url-pattern>/CreateCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteCourseServlet</servlet-name>
+  	<url-pattern>/DeleteCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateCourseServlet</servlet-name>
+  	<url-pattern>/updatec</url-pattern>
+  </servlet-mapping>
+</web-app>
